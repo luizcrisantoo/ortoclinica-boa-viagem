@@ -1,0 +1,66 @@
+/* ============================================================
+   Ortoclínica Boa Viagem — css/variables.css
+   Design tokens do site. Para mudar o tema inteiro,
+   altere apenas este arquivo.
+   Paleta derivada da logo oficial (gradiente azul + branco).
+   ============================================================ */
+:root {
+  /* Cores da marca — derivadas do navy oficial da logo (#131a3a) */
+  --brand-900: #131a3a;   /* NAVY DA LOGO (valor exato do PDF) */
+  --brand-800: #1a234e;
+  --brand-700: #232f68;
+  --brand-600: #2c3b82;
+  --brand-500: #3a4da5;
+  --brand-100: #d9dff3;
+  --brand-50:  #eceffa;
+
+  /* Gradiente da marca (tons do navy da logo) */
+  --grad-brand: linear-gradient(135deg, #2f3f7e 0%, #1d2857 55%, #131a3a 130%);
+  --grad-soft:  linear-gradient(135deg, #eceffa 0%, #ffffff 60%);
+
+  /* Neutras
+     Contraste (WCAG AA): --text 8.9:1 e --muted 5.9:1 sobre branco */
+  --ink:       #0f1b3d;   /* títulos */
+  --text:      #3d4a66;   /* corpo */
+  --muted:     #4d5a7a;   /* secundário — contraste reforçado (público 50+) */
+  --line:      #e1e5f3;
+  --bg:        #f4f6fb;
+  --surface:   #ffffff;
+  --tint:      #edf0f9;   /* tom da marca para fundos suaves */
+
+  /* Rampa de fundos (claro → escuro ao longo da rolagem).
+     Teto em --ramp-4: abaixo disso o texto --muted perde contraste AA. */
+  --ramp-0:    #f1f3fa;   /* base após o hero navy */
+  --ramp-1:    #e9ecf8;   /* como funciona, especialidades */
+  --ramp-2:    #e0e5f5;   /* estrutura, convênios */
+  --ramp-3:    #d8def3;   /* equipe, serviços */
+  --ramp-4:    #d0d7f1;   /* avaliações (último degrau antes do navy) */
+
+  /* Apoio */
+  --whatsapp:  #12833f;   /* verde WhatsApp escurecido: 4.6:1 com texto branco (WCAG AA) */
+  --star:      #f09d1d;
+
+  /* Tipografia */
+  --font-heading: 'Sora', sans-serif;
+  --font-body:    'Manrope', sans-serif;
+
+  /* Espaçamentos */
+  --sp-1: 0.5rem;
+  --sp-2: 1rem;
+  --sp-3: 1.5rem;
+  --sp-4: 2.5rem;
+  --sp-5: 4rem;
+  --sp-6: 6rem;
+
+  /* Bordas, sombras e transições */
+  --radius:    18px;
+  --radius-sm: 12px;
+  --radius-pill: 999px;
+  --shadow-sm: 0 2px 10px rgba(20, 32, 63, 0.06);
+  --shadow-md: 0 10px 30px rgba(26, 73, 184, 0.12);
+  --shadow-lg: 0 24px 60px rgba(10, 16, 48, 0.18);
+  --ease: cubic-bezier(.22,.61,.36,1);
+
+  /* Larguras */
+  --container: 1140px;
+}
