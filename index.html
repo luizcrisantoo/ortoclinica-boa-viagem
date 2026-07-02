@@ -8,7 +8,8 @@
   <title>Ortoclínica Boa Viagem — Ortopedia e Fisioterapia em Recife | Boa Viagem</title>
   <meta name="description" content="Clínica especializada em traumato-ortopedia em Boa Viagem, Recife: cirurgiões de coluna, joelho, ombro, mão, pé e quadril, cardiologia, fisioterapia e nutrição. 30 convênios. Agende pelo WhatsApp.">
   <meta name="keywords" content="ortopedista boa viagem, ortopedista recife, fisioterapia recife, traumatologia, cirurgia do joelho, cirurgia da coluna, ortoclínica boa viagem">
-  <link rel="canonical" href="https://ortoclinicaboaviagem.com.br">
+  <!-- TODO: quando o domínio próprio for registrado, trocar as URLs abaixo e configurar redirect 301 -->
+  <link rel="canonical" href="https://luizcrisantoo.github.io/ortoclinica-boa-viagem/">
   <meta name="theme-color" content="#131a3a">
   <meta name="geo.region" content="BR-PE">
   <meta name="geo.placename" content="Recife">
@@ -31,10 +32,18 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Ortoclínica Boa Viagem — Ortopedia e Fisioterapia em Recife">
   <meta property="og:description" content="Clínica especializada em traumato-ortopedia com 30 convênios aceitos. Atendimento de segunda a sexta, das 07h às 18h. Agende pelo WhatsApp.">
-  <meta property="og:image" content="https://ortoclinicaboaviagem.com.br/assets/images/og-image.jpg">
-  <meta property="og:url" content="https://ortoclinicaboaviagem.com.br">
+  <meta property="og:image" content="https://luizcrisantoo.github.io/ortoclinica-boa-viagem/assets/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://luizcrisantoo.github.io/ortoclinica-boa-viagem/">
   <meta property="og:site_name" content="Ortoclínica Boa Viagem">
   <meta property="og:locale" content="pt_BR">
+
+  <!-- ======= Twitter Card ======= -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ortoclínica Boa Viagem — Ortopedia e Fisioterapia em Recife">
+  <meta name="twitter:description" content="Clínica especializada em traumato-ortopedia com 30 convênios aceitos. Agende pelo WhatsApp.">
+  <meta name="twitter:image" content="https://luizcrisantoo.github.io/ortoclinica-boa-viagem/assets/images/og-image.jpg">
 
   <!-- ======= Schema.org (indexação sem JS) ======= -->
   <script type="application/ld+json">
@@ -43,28 +52,49 @@
     "@type": "MedicalClinic",
     "name": "Ortoclínica Boa Viagem",
     "description": "Clínica especializada em traumato-ortopedia em Boa Viagem, Recife-PE: cirurgia de coluna, joelho, ombro e cotovelo, mão e punho, pé e tornozelo e quadril, cardiologia, fisioterapia traumato-ortopédica e nutrição.",
-    "url": "https://ortoclinicaboaviagem.com.br",
+    "url": "https://luizcrisantoo.github.io/ortoclinica-boa-viagem/",
     "telephone": "+558130769245",
-    "image": "https://ortoclinicaboaviagem.com.br/assets/images/og-image.jpg",
+    "image": "https://luizcrisantoo.github.io/ortoclinica-boa-viagem/assets/images/og-image.jpg",
     "priceRange": "$$",
     "paymentAccepted": "Convênios, Particular",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Av. Visconde de Jequitinhonha, 1144, Sala 402",
+      "streetAddress": "Av. Visconde de Jequitinhonha, 1144, Sala 402, Boa Viagem",
       "addressLocality": "Recife",
       "addressRegion": "PE",
       "postalCode": "51030-020",
       "addressCountry": "BR"
     },
     "geo": { "@type": "GeoCoordinates", "latitude": -8.122408, "longitude": -34.903893 },
+    "hasMap": "https://maps.google.com/?q=Av.+Visconde+de+Jequitinhonha,+1144,+Boa+Viagem,+Recife",
     "openingHoursSpecification": [{
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
       "opens": "07:00", "closes": "18:00"
     }],
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "166", "bestRating": "5" },
-    "medicalSpecialty": ["Orthopedic", "PhysicalTherapy", "Cardiovascular", "Nutrition"],
-    "sameAs": ["https://instagram.com/ortoclinicaboaviagem"]
+    "medicalSpecialty": [
+      "https://schema.org/Musculoskeletal",
+      "https://schema.org/Physiotherapy",
+      "https://schema.org/Cardiovascular",
+      "https://schema.org/DietNutrition"
+    ],
+    "physician": [
+      { "@type": "Physician", "name": "Marina Hirschle",  "medicalSpecialty": "https://schema.org/Musculoskeletal", "description": "Ortopedista — Cirurgia da Coluna" },
+      { "@type": "Physician", "name": "Márcio Crisanto",  "medicalSpecialty": "https://schema.org/Musculoskeletal", "description": "Ortopedista — Cirurgia da Coluna" },
+      { "@type": "Physician", "name": "Róbson Kopke",     "medicalSpecialty": "https://schema.org/Musculoskeletal", "description": "Ortopedista — Cirurgia do Joelho" },
+      { "@type": "Physician", "name": "Fábio Guimarães",  "medicalSpecialty": "https://schema.org/Musculoskeletal", "description": "Ortopedista — Cirurgia do Joelho" },
+      { "@type": "Physician", "name": "Fábio Kauffman",   "medicalSpecialty": "https://schema.org/Musculoskeletal", "description": "Ortopedista — Cirurgia do Ombro e Cotovelo" },
+      { "@type": "Physician", "name": "Airllan Alves",    "medicalSpecialty": "https://schema.org/Musculoskeletal", "description": "Ortopedista — Cirurgia do Ombro e Cotovelo" },
+      { "@type": "Physician", "name": "Sandrelli Melo",   "medicalSpecialty": "https://schema.org/Musculoskeletal", "description": "Ortopedista — Cirurgia do Pé e Tornozelo" },
+      { "@type": "Physician", "name": "Lucas Severo",     "medicalSpecialty": "https://schema.org/Musculoskeletal", "description": "Ortopedista — Cirurgia do Pé e Tornozelo" },
+      { "@type": "Physician", "name": "George Alencar",   "medicalSpecialty": "https://schema.org/Musculoskeletal", "description": "Ortopedista — Cirurgia do Quadril" },
+      { "@type": "Physician", "name": "Ianele Braga",     "medicalSpecialty": "https://schema.org/Musculoskeletal", "description": "Ortopedista — Cirurgia da Mão e Punho" },
+      { "@type": "Physician", "name": "Airton Casé",      "medicalSpecialty": "https://schema.org/Musculoskeletal", "description": "Ortopedista — Cirurgia da Mão e Punho" }
+    ],
+    "sameAs": [
+      "https://instagram.com/ortoclinicaboaviagem",
+      "https://www.doctoralia.com.br/clinicas/ortoclinica-boa-viagem"
+    ]
   }
   </script>
 
@@ -125,6 +155,7 @@
         <span class="stars" aria-hidden="true">★★★★★</span>
         <span><strong>5.0</strong> no Doctoralia — 166 avaliações de pacientes</span>
       </p>
+      <p class="hero__how">Agendar é simples: <a href="#como-funciona">uma mensagem no WhatsApp</a> e a recepção cuida do resto.</p>
     </div>
 
     <div class="hero__media reveal">
@@ -287,24 +318,6 @@
   </div>
 </section>
 
-<!-- ===================== CONVÊNIOS ===================== -->
-<section class="section" id="convenios">
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="eyebrow">Convênios</span>
-      <h2>30 convênios aceitos</h2>
-      <p>Trabalhamos com os principais planos de saúde da região — e também atendemos particular.</p>
-    </div>
-
-    <!-- preenchido por render.js a partir de js/modules/data.js -->
-    <div class="plans reveal" id="plans-grid" aria-label="Lista de convênios aceitos"></div>
-
-    <p class="plans-note">
-      Não encontrou o seu plano? <a href="https://wa.me/5581991168831" data-wa="convenios">Pergunte pelo WhatsApp</a> — a lista é atualizada com frequência.
-    </p>
-  </div>
-</section>
-
 <!-- ===================== SERVIÇOS COMPLEMENTARES ===================== -->
 <section class="section" id="servicos">
   <div class="container">
@@ -331,6 +344,24 @@
         <p>Ultrassonografia musculoesquelética e infiltração com ácido hialurônico.</p>
       </article>
     </div>
+  </div>
+</section>
+
+<!-- ===================== CONVÊNIOS ===================== -->
+<section class="section" id="convenios">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Convênios</span>
+      <h2>30 convênios aceitos</h2>
+      <p>Trabalhamos com os principais planos de saúde da região — e também atendemos particular.</p>
+    </div>
+
+    <!-- preenchido por render.js a partir de js/modules/data.js -->
+    <div class="plans reveal" id="plans-grid" aria-label="Lista de convênios aceitos"></div>
+
+    <p class="plans-note">
+      Não encontrou o seu plano? <a href="https://wa.me/5581991168831" data-wa="convenios">Pergunte pelo WhatsApp</a> — a lista é atualizada com frequência.
+    </p>
   </div>
 </section>
 

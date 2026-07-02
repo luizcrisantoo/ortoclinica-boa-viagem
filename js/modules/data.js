@@ -15,7 +15,7 @@ window.OBV = window.OBV || {};
 OBV.clinic = {
   name: 'Ortoclínica Boa Viagem',
   tagline: 'Ortopedia e Fisioterapia',
-  siteUrl: 'https://ortoclinicaboaviagem.com.br', /* TODO: confirmar domínio */
+  siteUrl: 'https://luizcrisantoo.github.io/ortoclinica-boa-viagem/', /* TODO: trocar quando o domínio próprio for registrado */
 
   phones: [
     { label: '(81) 3076-9245', href: 'tel:+558130769245' },

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://luizcrisantoo.github.io/ortoclinica-boa-viagem/sitemap.xml

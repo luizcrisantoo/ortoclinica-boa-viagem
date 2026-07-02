@@ -154,6 +154,11 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible, input:focus-vis
 .hero__proof .stars { color: #ffd76a; letter-spacing: 2px; font-size: 1.05rem; }
 .hero__proof strong { color: #fff; }
 
+/* Micro-copy de processo: reduz ansiedade de agendamento já no hero */
+.hero__how { margin-top: 12px; color: #c1cbee; font-size: 1rem; }
+.hero__how a { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+.hero__how a:hover, .hero__how a:focus-visible { color: #ffd76a; }
+
 /* Foto real da clínica à direita */
 .hero__media { position: relative; }
 .hero__media > img {
